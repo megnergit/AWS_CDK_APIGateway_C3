@@ -2,8 +2,7 @@
 
 ## Overview
 
-We will follow [AWS CDK Immersion Day Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/10141411-0192-4021-afa8-2436f3c66bd8/\
-en-US), and create two stacks.
+We will follow [AWS CDK Immersion Day Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/10141411-0192-4021-afa8-2436f3c66bd8/en-US), and create two stacks.
 
 1. SQS and SNS.
 2. Lambda.
