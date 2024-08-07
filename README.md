@@ -13,8 +13,8 @@ en-US), and create two stacks.
 ## Stack 1
 
 See the previous repos for 
-* (starting mock cdk environment)[https://github.com/megnergit/AWS_CDK_localstack_C1]
-* (editing and running resources)[https://github.com/megnergit/AWS_CDK_Lambda_C2]
+* [starting mock cdk environment](https://github.com/megnergit/AWS_CDK_localstack_C1)
+* [editing and running resources](https://github.com/megnergit/AWS_CDK_Lambda_C2)
 
 ```./lib.aws-stack.ts
 # cat ./lib/aws-stack.ts
@@ -392,7 +392,7 @@ aws cloudformation delete-change-set \
     --change-set-name \
       arn:aws:cloudformation:us-east-1:123456789012:changeSet/SampleChangeSet/1a2345b6-0000-00a0-a123-00abc0abc000
 ```
-See []'Updating stacks using change sets'](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-changesets.html).
+See ['Updating stacks using change sets'](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-changesets.html).
 
 -------------------------------------------------
 
