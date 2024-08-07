@@ -50,7 +50,7 @@ export class AwsStack extends Stack {
 Check what resources are to be created.
 
 ```
-c synth 
+# c synth 
 ```
 
 This output yaml document. 
@@ -69,12 +69,12 @@ All right.
 ### Deploy
 
 ```
-c deploy
+# c deploy
 ```
 
 Check resources created.  
 ```
-AWS_DEFAULT_OUTPUT=json a cloudformation \
+# AWS_DEFAULT_OUTPUT=json a cloudformation \
 list-stack-resources \
 --stack-name AwsStack | grep Type
 
@@ -156,14 +156,14 @@ All right.
 
 Then deploy the code. This will remove the resources. 
 ```
-c deploy
+# c deploy
 ```
 
 You will see the resource status ```DELETE_COMPLETE```.
 
 
 ```
-AWS_DEFAULT_OUTPUT=json a cloudformation \
+# AWS_DEFAULT_OUTPUT=json a cloudformation \
 list-stack-resources \
 --stack-name AwsStack | more
 
