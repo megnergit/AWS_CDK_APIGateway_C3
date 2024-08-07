@@ -352,6 +352,20 @@ Hello, CDK! You have hit /
 ```
 All right. 
 
+-------------------------------------------------
+## Push local repo to new GitHub remote repo
+
+1. Create new repo 
+* without README.md
+
+2. Follow instruction, but commit before push. 
+```
+git remote add origin git@github.com:megnergit/AWS_CDK_APIGateway_C3.git
+git branch -M main
+git add README.md
+git commit -m 'Update README.md'
+git push -u origin main
+```
 
 -------------------------------------------------
 ## Trouble shooting
